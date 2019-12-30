@@ -99,7 +99,7 @@ gef➤  pattern search paac
 [+] Searching 'paac'
 [+] Found at offset 260 (big-endian search) 
 ```
-Finally, by opening up the program in IDA and decompiling, we see that we need to call the win function with 0xCAFEBABE as a paramater for the program to print out the flag. Let's find the address of win.
+Finally, by opening up the program in IDA and decompiling, we see that we need to call the win function with 0xCAFEBABE as a parameter for the program to print out the flag. Let's find the address of win.
 
 ```
 readelf -s baby_bof | grep win
