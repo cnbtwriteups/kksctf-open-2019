@@ -101,7 +101,7 @@ to seed `shuffle(file_name)`. Seeding will make the pseudorandom numbers the sam
 `file_name = 'message_from_above'`, we can conclude that the original name of the text file is that. Since the length of the filename
 is not that long, we can brute force the seed, getting that it is 3.
 
-Notice the Shuffle what the shuffle function is doing:
+Notice the what Shuffle function is doing:
 ```
 def Shuffle(p, data):
     buf = list(data)
