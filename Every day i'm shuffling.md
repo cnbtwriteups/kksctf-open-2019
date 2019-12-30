@@ -98,7 +98,8 @@ noagI wrns dnyo   tonfnhnuS’phoiniceenaoddMucr  emu o ”elgenorauii a n us   
 
 Looks like the program is shuffling the characters of the text file around according to the shuffle function. We notice that the random module is used
 to seed `shuffle(file_name)`. Seeding will make the pseudorandom numbers the same every time the program is run given the same seed. Since
-`file_name = 'message_from_above'`, we can conclude that the original name of the text file is that. Brute forcing the seed, we get that it is 3.
+`file_name = 'message_from_above'`, we can conclude that the original name of the text file is that. Since the length of the filename
+is not that long, we can brute force the seed, getting that it is 3.
 
 Notice the Shuffle what the shuffle function is doing:
 ```
